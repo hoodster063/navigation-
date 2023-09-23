@@ -20,6 +20,7 @@ body
     font-size: 40px;
     padding: 10px;
     padding-right: 250px;
+    color: grey;
 }
 
 .logo span
@@ -42,6 +43,8 @@ body
 {
     display: flex;
     padding: 10px 30px;
+    font-family: bold;
+    font-weight: bold;
     
 }
 
@@ -50,33 +53,37 @@ body
     
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: lightseagreen;
 }
 
 .navbar li a:hover
 {
     color: blue;
+    text-decoration: underline;
 }
 
 .navbar ul li .drop_menu li
 {
     display: block;
-    color: yellow;
+    
 
 }
 
 .navbar ul li .drop_menu
-{
-    width: 200px;
+{   padding-left: 10px;
+    width: 180px;
     position: absolute;
     display: none;
-    z-index: 999;
+    padding-top: 30px;
+   
+    
    
 }
 
 ul li a :hover
 {
     background: black;
+    text-decoration: underline;
 }
 
 ul li:hover ul.drop_menu
