@@ -1,0 +1,85 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.navbar
+{
+   
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    
+    color: blue;
+}
+
+.logo
+{
+    color: black ;
+    font-size: 40px;
+    padding: 10px;
+    padding-right: 250px;
+}
+
+.logo span
+{
+    color: black;
+    
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.navbar ul 
+{
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+.navbar li
+{
+    display: flex;
+    padding: 10px 30px;
+    
+}
+
+.navbar li a
+{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar li a:hover
+{
+    color: blue;
+}
+
+.navbar ul li .drop_menu li
+{
+    display: block;
+    color: yellow;
+
+}
+
+.navbar ul li .drop_menu
+{
+    width: 200px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+   
+}
+
+ul li a :hover
+{
+    background: black;
+}
+
+ul li:hover ul.drop_menu
+{
+    display:block;
+}
