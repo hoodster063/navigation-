@@ -2,6 +2,9 @@ body
 {
     font-family: sans-serif;
     background-color: rgb(38, 38, 143);
+    background-image: url(C:/Users/vivek/OneDrive/Desktop/lam.jpg);
+    
+   
 }
 
 .navbar
@@ -11,7 +14,7 @@ body
     width: 100%;
     align-items: center;
     display: flex;
-    
+    backdrop-filter: blur;
     color: blue;
 }
 
@@ -37,12 +40,14 @@ body
     display: flex;
     
     
+    
 }
 
 .navbar li
 {
     display: flex;
     padding: 10px 30px;
+    
     
 }
 
@@ -58,8 +63,10 @@ body
 
 .navbar li a:hover
 {
-    color: blue;
+    
     text-decoration: underline;
+    color: blue;
+    border-radius: 10px;
 }
 
 .navbar ul li .drop_menu li
@@ -75,7 +82,7 @@ body
     position: absolute;
     display: none;
     box-shadow: 0px 0px 10px #0a0885;
-    
+    backdrop-filter: blur;
    
 }
 
@@ -83,9 +90,13 @@ ul li a :hover
 {
     background: black;
     text-decoration: underline;
+    
 }
 
 ul li:hover ul.drop_menu
 {   margin-top: 30px;
     display:block;
 }
+
+
+
